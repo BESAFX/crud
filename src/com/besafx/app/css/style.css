@@ -1,0 +1,54 @@
+.button{
+    -fx-background-color: white;
+    -fx-border-radius: 5px;
+    -fx-font-family: "Cairo Black";
+    -fx-font-size: 18px;
+    -fx-text-fill: #03A9F5;
+}
+
+.button:hover{
+    -fx-background-color: #03A9F5;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+
+.button:armed{
+    -fx-background-color: white;
+    -fx-text-fill: #03A9F5;
+    -fx-border-color: white;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #03A9F5;
+    -fx-stroke: transparent;
+    -fx-size:50;
+    -fx-alignment: CENTER ;
+    -fx-text-alignment: center;
+}
+.table-view .column-header .label .text{
+    -fx-fill: white;
+    -fx-font-family: "Cairo Black";
+    -fx-font-size: 15px;
+}
+.table-row-cell{
+    -fx-font-family: "Cairo Black";
+    -fx-font-size: 12px;
+}
+.table-row-cell:filled:hover {
+    -fx-size:50;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+}
+.table-view:row-selection {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-fixed-cell-size: 50;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+}
+.table-view .table-column{
+    -fx-text-alignment: center;
+    -fx-alignment: CENTER;
+}
